@@ -1,0 +1,25 @@
+﻿Build started 2/6/2015 3:04:40 PM.
+     1>Project "C:\Users\anna\Desktop\opengles-book-samples-master\opengles-book-samples-master\Windows\Common\esUtil.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\esUtil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Source\esUtil.c
+         esUtil.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\anna\Desktop\opengles-book-samples-master\opengles-book-samples-master\Windows\Common\lib\esUtil.lib) does not match the Library's OutputFile property value (C:\Users\anna\Desktop\opengles-book-samples-master\opengles-book-samples-master\Windows\Common\lib\esUtil_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(esUtil) does not match the Library's OutputFile property value (esUtil_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\esUtil_d.lib" /NOLOGO Debug\esUtil_TGA.obj
+         Debug\esUtil_win32.obj
+         Debug\esShader.obj
+         Debug\esShapes.obj
+         Debug\esTransform.obj
+         Debug\esUtil.obj
+         esUtil.vcxproj -> C:\Users\anna\Desktop\opengles-book-samples-master\opengles-book-samples-master\Windows\Common\lib\esUtil.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\esUtil.unsuccessfulbuild".
+         Touching "Debug\esUtil.lastbuildstate".
+     1>Done Building Project "C:\Users\anna\Desktop\opengles-book-samples-master\opengles-book-samples-master\Windows\Common\esUtil.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.56
